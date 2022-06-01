@@ -1,0 +1,11 @@
+UNHANDLED EXCEPTIONS FROM PROCESS 7032:
+=====================
+8/16/2021 6:17:29 PM
+System.IO.IOException: O provedor do arquivo de nuvem não está em execução.
+
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   em System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   em System.IO.FileStream.Dispose(Boolean disposing)
+   em System.IO.FileStream.Finalize()
+===================
